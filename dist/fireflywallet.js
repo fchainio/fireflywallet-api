@@ -41,6 +41,16 @@ var FireFlyWallet = /** @class */ (function () {
         }
     };
     
+    FireFlyWallet.prototype.getOrigin = function () {
+        return window.FFW ? Promise.resolve(window.FFW) : Promise.reject(NOT_FFW_ERROR);
+    };
+    Object.defineProperty(FireFlyWallet.prototype, "origin", {
+        get: function () {
+            return window.FFW;
+        },
+        enumerable: true,
+        configurable: true
+    });
     FireFlyWallet.prototype.getVersion = function () {
         return window.FFW ? Promise.resolve(window.FFW.version) : Promise.reject(NOT_FFW_ERROR);
     };
