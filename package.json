@@ -1,6 +1,6 @@
 {
   "name": "fireflywallet-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "firefly wallet api",
   "main": "dist/fireflywallet.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/imloama/fireflywallet-api.git"
+    "url": "git+https://github.com/fchainio/fireflywallet-api.git"
   },
   "keywords": [
     "firefly",
@@ -21,9 +21,9 @@
   "author": "fireflywallet@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/imloama/fireflywallet-api/issues"
+    "url": "https://github.com/fchainio/fireflywallet-api/issues"
   },
-  "homepage": "https://github.com/imloama/fireflywallet-api#readme",
+  "homepage": "https://github.com/fchainio/fireflywallet-api#readme",
   "dependencies": {
     "promise-polyfill": "6.0.2",
     "tslib": "1.7.1",
