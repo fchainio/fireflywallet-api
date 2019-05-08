@@ -323,4 +323,4 @@ var FireFlyWallet = /** @class */ (function () {
     return FireFlyWallet;
 }());
 
-export { FireFlyWallet };
+export default FireFlyWallet;
