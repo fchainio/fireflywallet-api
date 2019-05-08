@@ -17,7 +17,7 @@ module.exports = [
 			file: 'dist/fireflywallet.js',
 		},
 		plugins: [
-			nodeResolve({ jsnext: true, main: true }),
+			nodeResolve({ jsnext: true, main: true, browser: true }),
 			buble(),
 			!isDevelopmentEnv && uglify({ output: { inline_script: true } }),
 		],
@@ -31,7 +31,7 @@ module.exports = [
 			file: 'dist/fireflywallet.min.js',
 		},
 		plugins: [
-			nodeResolve({ jsnext: true, main: true }),
+			nodeResolve({ jsnext: true, main: true, browser: true }),
 			buble(),
 			uglify({ output: { inline_script: true } }),
 		],
