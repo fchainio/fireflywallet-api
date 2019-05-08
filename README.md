@@ -14,7 +14,7 @@ yarn add fireflywallet-api
 ### ready
 
 ``` javascript
-import { FireFlyWallet } from 'fireflywallet-api';
+import FireFlyWallet from 'fireflywallet-api';
 const FFWProxy = new FireFlyWallet();
 FFWProxy.ready().then(FFW=>{
   console.log('firefly wallet api is ready')

@@ -29,7 +29,7 @@ declare namespace window {
 
 const NOT_FFW_ERROR = new Error('not firefly wallet environment');
 
-export class FireFlyWallet {
+export default class FireFlyWallet {
 
   private _interval:number|undefined;
   private _intervalTime = 300;
