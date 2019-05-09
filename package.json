@@ -1,8 +1,8 @@
 {
   "name": "fireflywallet-api",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "firefly wallet api",
-  "main": "dist/fireflywallet.js",
+  "main": "lib/index.js",
   "scripts": {
     "compile": "tsc",
     "bundle-js": "rollup -c rollup.config.js",
