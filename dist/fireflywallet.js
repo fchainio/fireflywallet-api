@@ -1,3 +1,6 @@
+var FireFlyWallet = (function () {
+'use strict';
+
 var NOT_FFW_ERROR = new Error('not firefly wallet environment');
 var FireFlyWallet = /** @class */ (function () {
     function FireFlyWallet(appname, appid) {
@@ -323,4 +326,6 @@ var FireFlyWallet = /** @class */ (function () {
     return FireFlyWallet;
 }());
 
-export default FireFlyWallet;
+return FireFlyWallet;
+
+}());

@@ -13,7 +13,7 @@ module.exports = [
 		name: 'FireFlyWallet',
 		sourceMap: false,
 		output: {
-			format: 'es',
+			format: 'iife',
 			file: 'dist/fireflywallet.js',
 		},
 		plugins: [
