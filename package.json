@@ -1,6 +1,6 @@
 {
   "name": "fireflywallet-api",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "firefly wallet api",
   "main": "dist/fireflywallet.js",
   "scripts": {
